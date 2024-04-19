@@ -174,7 +174,7 @@ class DiT(nn.Module):
         num_heads=16,
         mlp_ratio=4.0,
         class_dropout_prob=0.1,
-        num_classes=1000,
+        num_classes=15,
         learn_sigma=True,
     ):
         super().__init__()
